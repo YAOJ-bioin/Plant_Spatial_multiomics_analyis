@@ -1,0 +1,36 @@
+site_name: Spatial multiomics data analysis in plants
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  features:
+    - navigation.instant
+
+# 添加插件配置
+plugins:
+  - search
+  - mkdocs-jupyter:
+      execute: false
+      include_source: true
+      show_input_prompt: false
+      show_output_prompt:  false  # 隐藏输入序号
+
+
+
+nav:
+  - Welcome: index.md
+  - Preprocessing: 1_preprocess.md
+  - Basic analysis: basic_analysis.md
+  - Multiomics integration: multiomics_integration.md
+  - Downstream analysis: downstream_analysis.md
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      use_pygments: true
+      pygments_style: monokai  # 可以选择不同的高亮主题
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
