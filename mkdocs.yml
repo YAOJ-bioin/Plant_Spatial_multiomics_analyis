@@ -1,5 +1,7 @@
-site_name: Spatial multiomics data analysis in plants
-site_url: https://mydomain.org/mysite
+site_name: Plant Spatial Multiomics Analysis
+site_url: https://YAOJ-bioin.github.io/Plant_spatial_multiomics_analyis/
+repo_url: https://github.com/YAOJ-bioin/Plant_spatial_multiomics_analyis
+repo_name: YAOJ-bioin/Plant_spatial_multiomics_analyis
 theme:
   name: material
   features:
